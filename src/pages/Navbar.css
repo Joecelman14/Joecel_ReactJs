@@ -1,0 +1,31 @@
+.navbar {
+  background: linear-gradient(rgb(130, 231, 238),rgb(255, 255, 255), rgb(130, 238, 233));
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+    color: rgb(0, 128, 128);
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand:hover {
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand {
+    color: rgb(14, 11, 14);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: rgb(15, 14, 15);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
